@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import axios from "axios";
-import Movie from "..components/Movie";
+import Movie from "../components/Movie";
 import "./Home.css";
 
 class Home extends React.Component {
@@ -54,4 +54,4 @@ class Home extends React.Component {
         ); //map:배열로 다시 가져와주는것
     }
 }
-export default App;
+export default Home;
