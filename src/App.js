@@ -12,13 +12,17 @@ function App() {
             <Navigation />
             <Route path="/" exact={true} component={Home} />
             <Route path="/about" component={About} />
-            <Route path="/movie-detail" component={Detail} />
+            <Route path="/movie/" component={Detail} />
         </HashRouter>
     );
 } //excet를사용하는이유:path /를 보고 바로 렌더링을 해오기 때문에 /About하면 두개가 같이나옴
 //excet 사용하면 / 단독으로 사용할때만 불려오기 때문에 중첩적으로 오지 않은다
 
 export default App;
+
+//git fetch --all
+//git reset --hard origin/main
+
 
 // class App extends React.Component {
 //     state = {

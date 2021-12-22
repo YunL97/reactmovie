@@ -7,7 +7,7 @@ function Movie({ year, title, summary, poster, genres }) {
     return (
         <Link
             to={{
-                pathname: "/movie-detail",
+                pathname: `/movie/${title}`,
                 state: {
                     year,
                     title,
